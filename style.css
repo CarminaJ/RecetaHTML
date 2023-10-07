@@ -4,11 +4,8 @@ padding: 0%;
 .flex-container{
     display: flex;
 }
-.col{
-    margin-left: 0.5rem;
-    padding-right: 0.5rem;
-}
 .container{
+    margin-top: 1rem;
     text-align: center;
 }
 #traerAlfrente{
@@ -19,7 +16,18 @@ padding: 0%;
     box-sizing: border-box;
     text-align: right;
 }
-
+.container-fluid{
+    padding: 0% !important;
+}
+.letraPeque{
+    font-size: 14px;
+}
+.marcoC{ 
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
 .gris{
     padding-top: 2px;
     margin-bottom: 2rem;
@@ -48,10 +56,13 @@ padding: 0%;
     top: 13%;
     background-color: rgb(0,0,0,0.6);
 }
+.grosorP{
+    font-weight: 600;
+    font-family: var(); color: white;
+}
 
 .white{ 
-    padding-bottom: 1rem;
-    font-weight: 500;
+    margin-bottom: 2%;
     font-family: var(); color: white;
 }
 nav{
@@ -61,7 +72,7 @@ nav{
     font-family: var(); color: white !important;
 }
 .green{
-    font-family: var(); color: green;
+    font-family: var(); color: #29a744
 }
 .logo{
     width: 110px;
@@ -78,21 +89,36 @@ h5{
 p{
     margin: 0%;
 }
-.formulario{
-    box-sizing: border-box;
+h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+label{
+    font-size: large;
+}
+#formulario{
+    --bs-gutter-x: 0% !important;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.espacioM{
+    margin-right: 1.5rem;
 }
 .enviar{
-    margin: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     background-color: #96c93e;
+    font-size: large;
     font-weight: 500;
     font-family: var(); color: white;
 }
 .footer {
-   background-color:  #205B73;
-    padding: 20px 0; /* Espacio alrededor del contenido del footer */
+    background: -moz-linear-gradient(left, #1C3643 0%, #1e5372 100%);
+    background: linear-gradient(to right, #1C3643 0%, #1e5372 100%);
+    padding: 20px 0; 
 }
 
-.footer p {
-    margin: 0; /* Elimina el margen alrededor de cada etiqueta */
-    font-size: 18px; /* Tamaño de fuente */
+.footer h6 {
+    margin: 0;
+    font-weight: 500;
 }
